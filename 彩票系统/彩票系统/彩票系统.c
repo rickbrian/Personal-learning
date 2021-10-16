@@ -49,9 +49,9 @@ void printfarr(int arr[],int red)
 	printf("ºìÇò:\t");
 	for (int i = 0; i < 6; i++)
 	{
-		printf("%d\t", arr[i]);
+		printf("%-2d\t", arr[i]);
 	}
-	printf("À¶Çò£º%d\t", red);
+	printf("À¶Çò£º%-2d\t", red);
 }
 
 int main()
